@@ -29,7 +29,7 @@ const Navbar = () => {
 
             {/* Logo */}
             <Link to='/'>
-                <img src={assets.logo} alt="logo" className={`h-25 ${isScrolled && "invert opacity-80"}`} />
+                <img src="https://raw.githubusercontent.com/hemang-2001/Hotel-Booking/refs/heads/main/client/src/assets/logo.png" alt="logo" className={`h-15 ${isScrolled && "invert opacity-80"}`} />
             </Link>
 
             {/* Desktop Nav */}
