@@ -12,9 +12,9 @@ const BoolIcon = ()=>(
 const Navbar = () => {
     const navLinks = [
         { name: 'Home', path: '/' },
-        { name: 'Hotels', path: '/rooms' },
-        { name: 'Experiences', path: '/' },
-        { name: 'About', path: '/' },
+        { name: 'Hotels', path: '/room' },
+        // { name: 'Experiences', path: '/' },
+        // { name: 'About', path: '/' },
     ];
 
 
