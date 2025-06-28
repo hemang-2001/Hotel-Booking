@@ -49,12 +49,10 @@ const Navbar = () => {
 
         <nav className={`fixed top-0 left-0 w-full flex items-center justify-between px-4 md:px-16 lg:px-24 xl:px-32 transition-all duration-500 z-50 ${isScrolled ? "bg-white/80 shadow-md text-gray-700 backdrop-blur-lg py-3 md:py-4" : "py-4 md:py-6"}`}>
 
-            {/* Logo */}
             <Link to='/'>
                 <img src={assets.logo} alt="logo" className={`h-8 ${isScrolled && "invert opacity-80"}`} />
             </Link>
 
-            {/* Desktop Nav */}
             <div className="hidden md:flex items-center gap-4 lg:gap-8">
                 {navLinks.map((link, i) => (
                     <a key={i} href={link.path} className={`group flex flex-col gap-0.5 ${isScrolled ? "text-gray-700" : "text-white"}`}>
@@ -62,9 +60,14 @@ const Navbar = () => {
                         <div className={`${isScrolled ? "bg-gray-700" : "bg-white"} h-0.5 w-0 group-hover:w-full transition-all duration-300`} />
                     </a>
                 ))}
-                <button className={`border px-4 py-1 text-sm font-light rounded-full cursor-pointer ${isScrolled ? 'text-black' : 'text-white'} transition-all`}  >
-                    Dashboard
-                </button>
+                {user && (
+                    <button
+                        className={`border px-4 py-1 text-sm font-light rounded-full cursor-pointer ${isScrolled ? 'text-black' : 'text-white'} transition-all`}
+                        onClick={() => navigate('/owner')}
+                    >
+                        Dashboard
+                    </button>
+                )}
             </div>
 
             {/* Desktop Right */}
