@@ -82,52 +82,7 @@ smart-stays/
 │   ├── README.md
 │   ├── src/
 │   │   ├── App.jsx
-│   │   ├── assets/
-│   │   │   ├── addIcon.svg
-│   │   │   ├── arrowIcon.svg
-│   │   │   ├── assets.js
-│   │   │   ├── badgeIcon.svg
-│   │   │   ├── calenderIcon.svg
-│   │   │   ├── closeIcon.svg
-│   │   │   ├── closeMenu.svg
-│   │   │   ├── dashboardIcon.svg
-│   │   │   ├── exclusiveOfferCardImg1.png
-│   │   │   ├── exclusiveOfferCardImg2.png
-│   │   │   ├── exclusiveOfferCardImg3.png
-│   │   │   ├── facebookIcon.svg
-│   │   │   ├── favicon.svg
-│   │   │   ├── freeBreakfastIcon.svg
-│   │   │   ├── freeWifiIcon.svg
-│   │   │   ├── guestsIcon.svg
-│   │   │   ├── heartIcon.svg
-│   │   │   ├── heroImage.png
-│   │   │   ├── homeIcon.svg
-│   │   │   ├── instagramIcon.svg
-│   │   │   ├── linkendinIcon.svg
-│   │   │   ├── listIcon.svg
-│   │   │   ├── locationFilledIcon.svg
-│   │   │   ├── locationIcon.svg
-│   │   │   ├── logo 02.svg
-│   │   │   ├── logo.png
-│   │   │   ├── logo.svg
-│   │   │   ├── menuIcon.svg
-│   │   │   ├── mountainIcon.svg
-│   │   │   ├── poolIcon.svg
-│   │   │   ├── react.svg
-│   │   │   ├── regImage.png
-│   │   │   ├── roomImg1.png
-│   │   │   ├── roomImg2.png
-│   │   │   ├── roomImg3.png
-│   │   │   ├── roomImg4.png
-│   │   │   ├── roomServiceIcon.svg
-│   │   │   ├── searchIcon.svg
-│   │   │   ├── starIconFilled.svg
-│   │   │   ├── starIconOutlined.svg
-│   │   │   ├── totalBookingIcon.svg
-│   │   │   ├── totalRevenueIcon.svg
-│   │   │   ├── twitterIcon.svg
-│   │   │   ├── uploadArea.svg
-│   │   │   └── userIcon.svg
+│   │   ├── assets/ #images and all logos used in project
 │   │   ├── components/
 │   │   │   ├── ExclusiveOffers.jsx
 │   │   │   ├── FeaturedDestination.jsx
