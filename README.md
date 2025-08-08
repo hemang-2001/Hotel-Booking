@@ -6,6 +6,10 @@
 
 Welcome to the **Hotel Booking System Client**! This frontend application allows users to search for hotels, check availability, and make reservations. It is designed to provide a seamless and user-friendly experience.
 
+## Demo
+
+![Smart Stays Demo](./client/src/assets/SmartStays-gif.gif)
+
 ## Table of Contents
 
 - [Features](#features)
