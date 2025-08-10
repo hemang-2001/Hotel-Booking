@@ -2,73 +2,109 @@
 
 ![Hotel Booking Logo](https://raw.githubusercontent.com/hemang-2001/Hotel-Booking/c95599d174c58a6b87bfe7002749329eee38294c/client/src/assets/logo.svg)  <!-- Replace with your logo URL -->
 
-# Hotel Booking System - Smart Stays - Client
+<p align="center">
+  <h3 align="center">Smart Stays - Hotel Booking System</h3>
 
-Welcome to the **Hotel Booking System Client**! This frontend application allows users to search for hotels, check availability, and make reservations. It is designed to provide a seamless and user-friendly experience.
+  <p align="center">
+    A seamless hotel booking experience for modern travelers.<br/>
+    <a href="https://github.com/hemang-2001/smart-stays"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+    <a href="https://smartstays-demo-url/">View Demo</a>
+    ·
+    <a href="https://github.com/hemang-2001/smart-stays/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/hemang-2001/smart-stays/issues">Request Feature</a>
+  </p>
+</p>
+
+---
+
+## Table Of Contents
+
+- [About the Project](#about-the-project)
+- [Demo](#demo)
+- [Features](#features)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Scripts](#scripts)
+- [Contributing](#contributing)
+- [License](#license)
+- [Authors](#authors)
+
+---
+
+## About The Project
+
+Smart Stays is an advanced hotel booking system designed to deliver a *smooth and intuitive* experience for users searching for accommodation. Leveraging modern front-end technologies like **React.js, Redux, and Tailwind CSS**, the project brings together a powerful platform for browsing hotels, managing reservations, and handling user accounts. The dynamic, mobile-optimized layout ensures great usability across devices.
+
+---
 
 ## Demo
 
 ![Smart Stays Demo](./client/src/assets/SmartStays-gif.gif)
 
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+---
 
 ## Features
 
-- **User Registration and Login**: Users can create accounts and log in to manage their bookings.
-- **Search Functionality**: Easily search for hotels based on location, date, and number of guests.
-- **Booking Management**: Users can view, modify, or cancel their bookings.
-- **Responsive Design**: The application is optimized for both desktop and mobile devices.
+- **User Registration and Login**  
+- **Search Hotels:** Filter by location, date, guests  
+- **Booking Management:** View, modify, cancel reservations  
+- **Responsive Design:** Optimized for desktops/mobile  
+- **Secure API Integration:** Uses Clerk & Axios
 
-## Technologies Used
+---
 
-- **Frontend**: 
-  - React.js
-  - HTML
-  - CSS
-  - JavaScript
-- **State Management**: Redux (if applicable)
-- **API Integration**: Axios for making HTTP requests
+## Built With
 
+This project is built with:
 
-## 🚀 Getting Started
+- React.js
+- HTML, CSS, JavaScript
+- Redux (if applicable)
+- Tailwind CSS
+- Axios
+- Clerk (authentication)
+- Vite
+
+---
+
+## Getting Started
+
+Clone this repo and run the development server:
 
 ### Prerequisites
 
-- Node.js (v18+ recommended)
-- npm or yarn
+You’ll need the basics of JavaScript and React. Install Node.js (v18+), npm, or yarn.
 
 ### Installation
 
-```bash
-git clone https://github.com/your-username/smart-stays.git
+git clone https://github.com/hemang-2001/smart-stays.git
 cd smart-stays
 npm install
-```
 
-> Create a `.env` file in the root and add your Clerk publishable key:
+text
 
-```env
+> Create a `.env` file and add your Clerk publishable key:
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key_here
-```
+
+text
 
 ### Running Locally
 
-```bash
 npm run dev
-```
+
+text
 
 App will be available at: [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 🔍 Project Structure
+## Project Structure
 
 ```
 smart-stays/
@@ -119,36 +155,38 @@ smart-stays/
 └── README.md
 
 ```
+---
+## Scripts
+
+| Command           | Description                |
+|-------------------|----------------------------|
+| `npm run dev`     | Start development server   |
+| `npm run build`   | Build for production       |
+| `npm run preview` | Preview production build   |
+| `npm run lint`    | Run ESLint checks          |
 
 ---
 
-## 📦 Scripts
+## Contributing
 
-| Command        | Description                    |
-|----------------|--------------------------------|
-| `npm run dev`  | Start development server       |
-| `npm run build`| Build for production           |
-| `npm run preview` | Preview production build |
-| `npm run lint` | Run ESLint checks              |
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/smart-stays`)
+3. Commit your Changes (`git commit -m 'Add some feature'`)
+4. Push to the Branch (`git push origin feature/smart-stays`)
+5. Open a Pull Request
 
 ---
 
-## 🙌 Acknowledgements
+## License
 
-- [Vite](https://vitejs.dev/)
-- [React](https://reactjs.org/)
-- [Clerk](https://clerk.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
+This project is licensed under the MIT License.
 
 ---
 
-## 👤 Author
+## Authors
 
-**Hemang B.**  
-[GitHub](https://github.com/hemang-2001)
+- **Hemang Bairwa** - Computer Science Engineering Student  
+  [GitHub](https://github.com/hemang-2001)
+
+
+---
