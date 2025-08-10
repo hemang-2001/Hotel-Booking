@@ -7,14 +7,14 @@
 
   <p align="center">
     A seamless hotel booking experience for modern travelers.<br/>
-    <a href="https://github.com/hemang-2001/smart-stays"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/hemang-2001/hotel-booking"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://smartstays-demo-url/">View Demo</a>
+    <a href="https://smart-stays.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/hemang-2001/smart-stays/issues">Report Bug</a>
+    <a href="https://github.com/hemang-2001/hotel-booking/issues">Report Bug</a>
     ·
-    <a href="https://github.com/hemang-2001/smart-stays/issues">Request Feature</a>
+    <a href="https://github.com/hemang-2001/hotel-booking/issues">Request Feature</a>
   </p>
 </p>
 
